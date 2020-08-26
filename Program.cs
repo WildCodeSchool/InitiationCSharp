@@ -23,7 +23,7 @@ namespace MoreOrLessInitiation
         {
             Int32 userGuess = /* Convertit en entier la chaîne de caractères récupérée en console */;
             PrintComputerHint(computerChoice, userGuess);
-            /* Ici tu dois renvoyer "vrai" si computerChoice est égal à userGuess, et faux autrement. Ceci va permettre de savoir si le jeu doit continuer ou non */
+            /* Ici PlayTurn doit retourner "vrai" si computerChoice est égal à userGuess, et faux autrement. Ceci va permettre de savoir si le jeu doit continuer ou non */
         }
 
         /* Cette fonction affiche une aide à l'utilisateur. Ainsi:

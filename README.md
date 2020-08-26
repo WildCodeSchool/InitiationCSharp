@@ -4,7 +4,13 @@ Durant cette initiation, tu apprendras à utiliser des méthodes du framework .N
 
 ## Préparation
 
-Installe Visual Studio 2019 si ce n'est pas déjà fait. L'installation peut être longue alors il vaut mieux la commencer maintenant. 
+### Windows
+
+Installe Visual Studio 2019 si ce n'est pas déjà fait. L'installation peut être longue alors il vaut mieux la commencer maintenant.
+
+### Linux
+
+`apt-get install mono-ide`
 
 ## Le plus ou moins
 

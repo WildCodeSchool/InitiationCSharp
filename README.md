@@ -4,11 +4,15 @@ Durant cette initiation, tu apprendras à utiliser des méthodes du framework .N
 
 ## Préparation
 
-### Windows
+### Outils
 
-Installe Visual Studio 2019 si ce n'est pas déjà fait. L'installation peut être longue alors il vaut mieux la commencer maintenant.
+#### Windows
 
-### Linux
+[Télécharge](https://visualstudio.microsoft.com/fr/thank-you-downloading-visual-studio/?sku=Community&rel=16) et installe Visual Studio 2019 si ce n'est pas déjà fait. L'installation peut être longue alors il vaut mieux la commencer maintenant.
+
+- - -
+
+#### Linux
 
 ```bash
 sudo apt install apt-transport-https dirmngr
@@ -39,4 +43,4 @@ Afin de cloner le dépôt pour pouvoir commencer à travailler, exécute dans un
 
 ## Fichier sln
 
-Ouvre le fichier sln avec Visual Studio et tu pourras commencer à coder. Un triangle vert (bouton Play) compilera le code et le lancera.
+Ouvre le fichier `sln` avec Visual Studio et tu pourras commencer à coder. Un triangle vert (bouton Play) compilera le code et le lancera.

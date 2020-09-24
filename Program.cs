@@ -8,7 +8,7 @@ namespace MoreOrLessInitiation
         {
             Int32 computerChoice = new Random().Next(0, 100); // Get a random integer value
             /* Si le booléen finished passe à true, l'exécution du code s'arrête */
-            bool finished = false; // Comme le jeu vient de commencner, il n'est pas terminé
+            bool finished = false; // Comme le jeu vient de commencer, il n'est pas terminé
             while(!finished) // Tant que finished est différent de true
             {
                 finished = PlayTurn(computerChoice);
@@ -30,7 +30,7 @@ namespace MoreOrLessInitiation
          * 1. Si userGuess est strictement supérieur à computerChoice il faut afficher "moins"
          * 2. Si userGuess est strictement inférieur à computerChoice il faut afficher "plus"
          * 3. Si userGuess est égal à computerChoice il faut afficher "Les nombres sont égaux" */
-        private static void PrintComputerHint(int computerChoice, int userGuess)
+        private static void PrintComputerHint(Int32 computerChoice, Int32 userGuess)
         {
         }
     }
